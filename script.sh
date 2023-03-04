@@ -2,7 +2,7 @@
 ################
 #script to check the EC2 resources using during a particular time through cronjob
 ###############
-
+#Author: Yashwanth , yashwanthbs55@gmail.com
 #Things we are tracking
 #EC2 insances, lamba functions, s3 buckets, EBS volumes
 
