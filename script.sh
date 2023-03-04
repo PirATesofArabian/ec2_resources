@@ -6,6 +6,9 @@
 #Things we are tracking
 #EC2 insances, lamba functions, s3 buckets, EBS volumes
 
+#installing the json paser(jq) in ubunut/linux/your os
+sudo apt-get install jq -y > * 2>/dev/null
+
 echo "The EC2 instances in the account are:"
 aws ec2 describe-instances |jq '.Reservations[].Instances[].InstanceId'
 
